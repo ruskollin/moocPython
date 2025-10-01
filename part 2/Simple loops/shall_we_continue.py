@@ -1,7 +1,7 @@
-while True:
+answer = ""
+
+while answer != "no":
     print("hi")
     answer = input("Shall we continue? ")
-    if answer == "no":
-        break
 
 print("okay then")

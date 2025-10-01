@@ -1,5 +1,7 @@
-address = input("What is your address? ")
-print("So you live at address " + address)
-
-address = input("Please type in a new address: ")
-print("Your address is now " + address)
+givenName = input("What is your given name?")
+lastName = input("What is your last name?")
+streetAddress = input("What is your street address?")
+city = input("What is your city and postal code?")
+print(givenName + " " + lastName)
+print(streetAddress)
+print(city)
